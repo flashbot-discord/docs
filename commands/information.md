@@ -4,36 +4,40 @@ description: 여러 유용한 정보들을 볼 수 있는 명령어들
 
 # 정보
 
-## 핑
+## `//ping` 핑
 
 봇의 현재 응답 속도를 알려줍니다.
 
 ```text
-//핑
+//ping
 
 # 별칭
-//ping
+//핑
 ```
 
-## 유저 정보
+## `//userinfo` 유저 정보
 
 명령어를 입력한 사용자의 정보를 보여줍니다.
 
 ```text
-//유저정보
+//userinfo
 
 # 별칭
-//userinfo
+//유저정보
+//dbwjwjdqh
+//ㅕㄴㄷ갸ㅜ래
 ```
 
-## 서버 정보
+## `//servrinfo` 서버 정보
 
 명령어를 입력한 서버의 정보를 보여줍니다.
 
 ```text
-//서버정보
+//serverinfo
 
 # 별칭
-//serverinfo
+//서버정보
+//ㄴㄷㄱㅍㄷ갸ㅜ래
+//tjqjwjdqh
 ```
 
