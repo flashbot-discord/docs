@@ -43,10 +43,12 @@ Javascript 코드를 실행합니다.
 ```js
 // msg = Message 객체
 
-const client = msg.client                               const guild = msg.guild
+const client = msg.client
+const guild = msg.guild
 const channel = msg.channel
 const author = msg.author
-const member = msg.member                               const Discord = require('discord.js')
+const member = msg.member
+const Discord = require('discord.js')
 const childProcess = require('child_process')
 const fs = require('fs')
 const os = require('os')
