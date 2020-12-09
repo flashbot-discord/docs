@@ -55,3 +55,30 @@ const os = require('os')
 const jsondb = msg.client.db.obj // json 사용 시 데이터 위치
 const knex = msg.client.db.knex // knex 관련 db 사용 시
 ```
+
+또한 `this`는 `EvalCommand#execute()` method를 가리킵니다.
+
+## `//exec` 쉘 스크립트 실행
+
+봇을 구동하는 시스템에서 쉘 명령어를 실행합니다.
+
+{% hint style="danger" %} 이 명령어는 이 봇과 봇이 작동하고 있는 시스템에 **직접적인 영향을 줄 수 있습니다**. 명령어를 실행하기 전에 **입력한 내용을 한 번 더 확인하세요**. {% endhint %}
+
+* 별칭: `execute`, `ㄷㅌㄷㅊ`, `ㄷㅌㄷ쳣ㄷ`
+* **소유자만 사용 가능**
+
+## `//load` 명령어 로드
+
+명령어를 불러옵니다.
+
+* 별칭: `ㅣㅐㅁㅇ`
+* **소유자만 사용 가능**
+
+```
+//load <명령어 파일 경로>
+
+# dev/eval.js
+//load dev/eval
+```
+
+명령어 파일의 확장자(`js`)는 입력하지 않습니다.
