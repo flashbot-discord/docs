@@ -8,6 +8,7 @@
 * [개발용](commands/develop.md)
 
 ## 직접 호스팅 <a id="selfhosting"></a>
-* [설치](install.md)
-* [데이터베이스](database.md)
+
+* [설치](selfhosting/install.md)
+* [데이터베이스](selfhosting/database.md)
 
