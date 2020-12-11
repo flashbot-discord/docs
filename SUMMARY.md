@@ -10,5 +10,5 @@
 ## 직접 호스팅 <a id="selfhosting"></a>
 
 * [설치](selfhosting/install.md)
-* [데이터베이스](selfhosting/database.md)
+* [데이터베이스](selfhosting/undefined.md)
 
